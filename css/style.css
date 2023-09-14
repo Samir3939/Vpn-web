@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+body {
+  height: 1000vh;
+  margin: 0 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.ilk,
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+ul li {
+  list-style: none;
+  margin-right: 25px;
+}
+.orta {
+  font-size: 18px;
+  color: gray;
+}
+
+.sag {
+  display: flex;
+  align-items: center;
+}
+
+.primary-button {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 150px;
+  height: 45px;
+  color: red;
+}
+
+.sag2 {
+  margin-right: 30px;
+  font-size: 18px;
+}
+
+section {
+  padding: 0 150px;
+}
+
+.text {
+  font-size: 50px;
+}
+.text2 {
+  font-size: 16px;
+  color: gray;
+}
+
+.btn2 {
+  border-radius: 15px;
+  border: none;
+  width: 250px;
+  height: 55px;
+  background-color: red;
+  color: white;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.main-left {
+  height: 125.57px;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  padding-right: 95px;
+  padding-left: 50px;
+  border-right: 1.5px solid white;
+}
+
+.main-center {
+  height: 125.57px;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  padding-right: 95px;
+  border-right: 1.5px solid white;
+}
+
+.main-right {
+  height: 125.57px;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  padding-right: 95px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 70px;
+}
+
+.main-content {
+  /* width: 1017px; */
+  height: 170px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f53838;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.general {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.kaps2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.text3 {
+  font-size: 35px;
+}
+
+.text4 {
+  font-size: 16px;
+  color: gray;
+}
+
+.kaps2-right-container {
+  padding: 27px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  line-height: 30px;
+  color: gray;
+  font-size: 14px;
+}
+
+.list-item-text {
+  line-height: 30px;
+}
+
+.narrow {
+  height: 100%;
+  width: 5px;
+  background-color: white;
+}
+
+.metn {
+  margin-top: 60px;
+}
+
+.bolme3 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.bolme4 {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.eseb {
+  display: flex;
+  justify-content: center;
+}
+
+.cubs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cub {
+  
+  width: 330px;
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 85px;
+  padding-bottom: 50px;
+  
+}
+
+.cub:active {
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.cub:active .cub-btn {
+  background-color: red;
+  color: white;
+}
+
+.cub-info-options {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 230px;
+  margin-top: 25px;
+}
+
+.kaps4 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  color: gray;
+}
+
+.cub-btn {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 150px;
+  height: 45px;
+  color: red;
+  cursor: pointer;
+}
+.kaps5{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.devis{
+  font-size: 35px;
+  
+}
+.paragraf{
+  display: flex;
+  justify-content: center;
+  line-height: 30px;
+}
+.map{
+  padding: 50px;
+  margin-top: 70px;
+}
