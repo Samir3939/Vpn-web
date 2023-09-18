@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 body {
-  height: 1000vh;
+  
   margin: 0 0;
   font-family: "Rubik", sans-serif;
 }
@@ -167,28 +167,21 @@ section {
   justify-content: center;
 }
 
-.eseb {
-  display: flex;
-  justify-content: center;
-}
-
 .cubs {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .cub {
-  
   width: 330px;
-  border: 2px solid #DDDDDD;
+  border: 2px solid #dddddd;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 85px;
   padding-bottom: 50px;
-  
 }
 
 .cub:active {
@@ -225,22 +218,136 @@ section {
   color: red;
   cursor: pointer;
 }
-.kaps5{
+.map {
+  margin-top: 50px;
+  padding: 70px;
+}
+.kaps5 {
   display: flex;
   justify-content: center;
   margin-top: 70px;
 }
 
-.devis{
+.devis {
   font-size: 35px;
-  
 }
-.paragraf{
+.paragraf {
   display: flex;
   justify-content: center;
   line-height: 30px;
 }
-.map{
-  padding: 50px;
-  margin-top: 70px;
+
+.kaps6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
+.paragraf2 {
+  display: flex;
+  justify-content: center;
+  line-height: 30px;
+  color: gray;
+}
+
+.devis2 {
+  font-size: 35px;
+}
+.main-bort {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.bort {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px solid red;
+  padding: 20px;
+  margin-top: 50px;
+}
+.status {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.quotes {
+  margin-top: 40px;
+}
+.slide-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#custom{
+  margin-bottom: 175px;
+}
+.end {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1140px;
+  height: 233px;
+  border-radius: 10px;
+  background-color: #dddddd;
+  
+}
+.end-place {
+display: flex; justify-content: center;
+margin-top: 70px;
+position: absolute;
+bottom: 442px;
+left: 150px;
+}
+  
+}
+.end-text {
+  font-size: 35px;
+  
+}
+.end-paragrah {
+  font-size: 16px;
+  color: gray;
+}
+
+.btn-place {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn3 {
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+.last{
+width: auto;
+height: 563px;
+border: 1px solid black;
+background-color: #F53838;
+
+}
+footer{
+  position: relative;
+}
+.last-paragrah{
+  font-size: 16px;
+  color: white;
+}
+.last-logo{
+  padding-top: 200px;
+}
+.socials{
+  display: flex;
+}
+.last{
+  padding-left: 160px;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+}
+
